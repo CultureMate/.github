@@ -9,6 +9,7 @@
 서울의 문화행사를 발견하고 주변 장소를 연결해<br />
 나만의 문화 코스로 저장하고 공유하는 문화생활 플래너입니다.
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_App-FF6B47?style=for-the-badge&logo=googlechrome&logoColor=white)](https://culturemate.github.io/CultureMate-frontend/#/)
 [![Platform](https://img.shields.io/badge/Platform-Overview-7C3AED?style=for-the-badge)](https://github.com/CultureMate/CultureMate-platform)
 [![Frontend](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=111827)](https://github.com/CultureMate/CultureMate-frontend)
 [![Backend](https://img.shields.io/badge/Backend-Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://github.com/CultureMate/CultureMate-backend)
@@ -24,6 +25,8 @@ CultureMate는 행사 하나를 찾는 데서 끝나지 않습니다. 문화행�
 ```text
 문화행사 발견  →  AI 소개 확인  →  주변·사이 장소 추천  →  코스 저장  →  링크 공유
 ```
+
+> **[브라우저에서 CultureMate 데모 체험하기](https://culturemate.github.io/CultureMate-frontend/#/)** — 별도 설치나 백엔드 연결 없이 예시 데이터로 주요 화면을 둘러볼 수 있습니다.
 
 | 🎭 행사 탐색 | ✨ AI 소개 | ☕ 장소 추천 | 🗺️ 코스 구성 | 🔗 공유 |
 |---|---|---|---|---|
