@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="CultureMate: 문화행사 발견에서 하루 코스 완성까지">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8A4C"/>
+      <stop offset="1" stop-color="#E8432F"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF7A45"/>
+      <stop offset="1" stop-color="#EF4433"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#7C2D12" flood-opacity="0.28"/>
+    </filter>
+    <style>
+      .font { font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="400" rx="28" fill="url(#bg)"/>
+  <circle cx="1110" cy="40" r="210" fill="#FFFFFF" fill-opacity="0.08"/>
+  <circle cx="820" cy="430" r="170" fill="#FFFFFF" fill-opacity="0.06"/>
+  <circle cx="40" cy="380" r="120" fill="#FFFFFF" fill-opacity="0.05"/>
+
+  <path d="M770 60 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6z" fill="#FFD95A" fill-opacity="0.9"/>
+  <path d="M1160 340 l4 11 11 4 -11 4 -4 11 -4 -11 -11 -4 11 -4z" fill="#FFD95A" fill-opacity="0.8"/>
+  <path d="M250 70 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3z" fill="#FFFFFF" fill-opacity="0.7"/>
+
+  <g filter="url(#shadow)">
+    <rect x="90" y="125" width="150" height="150" rx="38" fill="#FFFFFF"/>
+  </g>
+  <path d="M194.7 170.3 A42 42 0 1 0 194.7 229.7" fill="none" stroke="url(#mark)" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="197" cy="167" r="12" fill="#FFFFFF"/>
+  <circle cx="197" cy="167" r="6.5" fill="#EF4433"/>
+  <path d="M220 184 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z" fill="#FFC83D"/>
+
+  <g class="font" fill="#FFFFFF">
+    <text x="288" y="186" font-size="72" font-weight="800" letter-spacing="-1.5">CultureMate</text>
+    <text x="290" y="234" font-size="28" font-weight="700" fill-opacity="0.97">문화행사 발견에서 하루 코스 완성까지</text>
+    <text x="290" y="272" font-size="19" font-weight="500" fill-opacity="0.88">서울 문화행사 탐색 · AI 소개 · 장소 추천 · 코스 공유</text>
+  </g>
+
+  <g class="font" font-size="15" font-weight="600" text-anchor="middle">
+    <rect x="290" y="300" width="176" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.18" stroke="#FFFFFF" stroke-opacity="0.45"/>
+    <text x="378" y="323" fill="#FFFFFF">서울 열린데이터광장</text>
+    <rect x="476" y="300" width="96" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.18" stroke="#FFFFFF" stroke-opacity="0.45"/>
+    <text x="524" y="323" fill="#FFFFFF">OpenAI</text>
+    <rect x="582" y="300" width="140" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.18" stroke="#FFFFFF" stroke-opacity="0.45"/>
+    <text x="652" y="323" fill="#FFFFFF">Google Places</text>
+    <rect x="732" y="300" width="90" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.18" stroke="#FFFFFF" stroke-opacity="0.45"/>
+    <text x="777" y="323" fill="#FFFFFF">Kakao</text>
+  </g>
+
+  <g transform="translate(940 40)">
+    <rect width="200" height="320" rx="34" fill="#FFFFFF" fill-opacity="0.16" stroke="#FFFFFF" stroke-opacity="0.5" stroke-width="2"/>
+    <rect x="72" y="14" width="56" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.55"/>
+
+    <rect x="18" y="38" width="164" height="96" rx="16" fill="#FFFFFF"/>
+    <rect x="30" y="52" width="72" height="44" rx="10" fill="#FFE3D8"/>
+    <path d="M66 62 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4z" fill="#FF6B3D"/>
+    <rect x="112" y="56" width="58" height="9" rx="4.5" fill="#1F2937" fill-opacity="0.8"/>
+    <rect x="112" y="72" width="46" height="8" rx="4" fill="#D1D5DB"/>
+    <rect x="30" y="108" width="140" height="8" rx="4" fill="#E5E7EB"/>
+
+    <rect x="18" y="146" width="164" height="66" rx="16" fill="#FFFFFF" fill-opacity="0.94"/>
+    <circle cx="44" cy="179" r="14" fill="#FFE3D8"/>
+    <rect x="68" y="168" width="96" height="9" rx="4.5" fill="#1F2937" fill-opacity="0.75"/>
+    <rect x="68" y="184" width="68" height="8" rx="4" fill="#D1D5DB"/>
+
+    <rect x="18" y="224" width="164" height="54" rx="16" fill="#FFFFFF" fill-opacity="0.85"/>
+    <circle cx="44" cy="251" r="12" fill="#FFE3D8"/>
+    <rect x="66" y="246" width="100" height="9" rx="4.5" fill="#D1D5DB"/>
+
+    <circle cx="52" cy="298" r="5" fill="#FFFFFF"/>
+    <circle cx="84" cy="298" r="5" fill="#FFFFFF" fill-opacity="0.55"/>
+    <circle cx="116" cy="298" r="5" fill="#FFFFFF" fill-opacity="0.55"/>
+    <circle cx="148" cy="298" r="5" fill="#FFFFFF" fill-opacity="0.55"/>
+  </g>
+
+  <g class="font" filter="url(#shadow)">
+    <rect x="812" y="92" width="150" height="44" rx="22" fill="#FFFFFF"/>
+    <circle cx="836" cy="114" r="7" fill="#FF6B3D"/>
+    <text x="852" y="120" font-size="16" font-weight="700" fill="#1F2937">AI 소개 완료</text>
+
+    <rect x="858" y="262" width="164" height="44" rx="22" fill="#FFFFFF"/>
+    <circle cx="882" cy="284" r="7" fill="#10B981"/>
+    <text x="898" y="290" font-size="16" font-weight="700" fill="#1F2937">코스에 담았어요</text>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150" role="img" aria-label="CultureMate, LG CNS AM INSPIRE CAMP 6기 3조">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF8A4C"/>
+      <stop offset="1" stop-color="#E8432F"/>
+    </linearGradient>
+    <style>
+      .font { font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Segoe UI', sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="150" rx="24" fill="url(#bg)"/>
+  <circle cx="1120" cy="10" r="120" fill="#FFFFFF" fill-opacity="0.08"/>
+  <circle cx="80" cy="150" r="90" fill="#FFFFFF" fill-opacity="0.06"/>
+  <path d="M728 18 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z" fill="#FFD95A"/>
+  <g class="font" fill="#FFFFFF" text-anchor="middle">
+    <text x="600" y="72" font-size="36" font-weight="800" letter-spacing="-0.5">CultureMate</text>
+    <text x="600" y="110" font-size="19" font-weight="500" fill-opacity="0.9">LG CNS AM INSPIRE CAMP 6기 · 3조 Mini Project</text>
+  </g>
+</svg>
