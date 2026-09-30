@@ -25,11 +25,11 @@
   &nbsp;
   <img src="../assets/screen-detail.png" alt="CultureMate 행사 상세" width="31%" />
   &nbsp;
-  <img src="../assets/screen-course.png" alt="CultureMate 코스" width="31%" />
+  <img src="../assets/screen-events.png" alt="CultureMate 행사 목록" width="31%" />
 </div>
 
 <div align="center">
-  <sub>행사 탐색 · 상세 정보 · 나만의 코스</sub>
+  <sub>홈 추천 · 행사 상세 · 목록과 코스 담기</sub>
 </div>
 
 ---
