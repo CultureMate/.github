@@ -124,68 +124,161 @@ flowchart LR
 
 ## 🧰 Tech Stack
 
-<div align="center">
-
-| Layer | Stack |
-|:---:|:---|
-| **Frontend** | ![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8) |
-| **Backend** | ![Java](https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white) |
-| **Database** | ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white) |
-| **Infra · CI** | ![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white) |
-| **External API** | ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white) ![Google Maps](https://img.shields.io/badge/Google_Places-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white) ![Kakao](https://img.shields.io/badge/Kakao_OAuth-FFCD00?style=for-the-badge&logo=kakaotalk&logoColor=000000) |
-
-</div>
+<table width="100%">
+  <tr>
+    <th width="18%">Layer</th>
+    <th>Stack</th>
+  </tr>
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+      <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-0F172A?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8" alt="Tailwind CSS" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Backend</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Java_17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 17" />
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Database</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" alt="MariaDB" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Infra · CI</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Compose" />
+      <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+      <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>External API</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/서울_열린데이터광장-1E3A8A?style=for-the-badge" alt="서울 열린데이터광장" />
+      <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI" />
+      <img src="https://img.shields.io/badge/Google_Places-4285F4?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Google Places" />
+      <img src="https://img.shields.io/badge/Kakao_OAuth-FFCD00?style=for-the-badge&logo=kakaotalk&logoColor=000000" alt="Kakao OAuth" />
+    </td>
+  </tr>
+</table>
 
 <br />
 
 ## 🔧 Engineering Highlights
 
-| | 고민 | 해결 |
-|:---:|---|---|
-| 🧹 | **외부 데이터 안정화** | 서울시 문화행사 원본을 서비스 모델로 정제하고 중복 데이터를 병합했습니다. |
-| 💸 | **AI 비용과 응답 최적화** | 생성된 소개문을 행사별로 저장하여 같은 요청에서 재호출하지 않습니다. |
-| 🧭 | **위치 기반 추천** | 행사 주변뿐 아니라 두 행사 사이의 장소까지 검색할 수 있도록 추천 흐름을 확장했습니다. |
-| 🐳 | **재현 가능한 실행 환경** | 프론트엔드·백엔드·DB를 Docker Compose로 통합하고 GitHub Actions로 검증합니다. |
-| 🚀 | **독립 실행 데모** | 백엔드와 API 키 없이도 주요 사용자 흐름을 확인할 수 있는 GitHub Pages 데모를 제공합니다. |
+<table width="100%">
+  <tr>
+    <th width="22%">영역</th>
+    <th width="36%">문제</th>
+    <th>해결</th>
+  </tr>
+  <tr>
+    <td>🧹 <b>외부 데이터 안정화</b></td>
+    <td>서울시 원본은 필드 형식이 제각각이고 같은 행사가 여러 번 들어옵니다.</td>
+    <td>원본을 서비스 모델로 정제하고 중복 데이터를 병합했습니다.</td>
+  </tr>
+  <tr>
+    <td>💸 <b>AI 비용과 응답 속도</b></td>
+    <td>상세 화면을 열 때마다 소개문을 만들면 비용과 대기 시간이 늘어납니다.</td>
+    <td>생성한 소개문을 행사별로 저장해 같은 요청에서는 다시 호출하지 않습니다.</td>
+  </tr>
+  <tr>
+    <td>🧭 <b>위치 기반 추천</b></td>
+    <td>행사 주변 장소만으로는 두 행사를 잇는 동선을 짜기 어렵습니다.</td>
+    <td>두 행사 사이의 장소까지 검색하도록 추천 흐름을 확장했습니다.</td>
+  </tr>
+  <tr>
+    <td>🐳 <b>재현 가능한 실행 환경</b></td>
+    <td>팀원마다 로컬 환경이 달라 같은 코드도 실행 결과가 달라집니다.</td>
+    <td>프론트엔드·백엔드·DB를 Docker Compose로 묶고 GitHub Actions로 검증합니다.</td>
+  </tr>
+  <tr>
+    <td>🚀 <b>독립 실행 데모</b></td>
+    <td>백엔드 서버와 API 키가 없으면 서비스를 직접 체험할 수 없습니다.</td>
+    <td>샘플 데이터로 주요 흐름을 확인할 수 있는 GitHub Pages 데모를 제공합니다.</td>
+  </tr>
+</table>
 
 <br />
 
 ## 📦 Repositories
 
-<div align="center">
-
-| Repository | Role | Links |
-|---|---|:---:|
-| 🧩 **CultureMate-platform** | 통합 실행, 시스템 구성, 프로젝트 문서 | [![repo](https://img.shields.io/badge/Repo-24292F?style=flat-square&logo=github)](https://github.com/CultureMate/CultureMate-platform) |
-| 🎨 **CultureMate-frontend** | React 기반 사용자 화면과 문화 코스 경험 | [![repo](https://img.shields.io/badge/Repo-24292F?style=flat-square&logo=github)](https://github.com/CultureMate/CultureMate-frontend) [![demo](https://img.shields.io/badge/Demo-FF5A3C?style=flat-square&logo=googlechrome&logoColor=white)](https://culturemate.github.io/CultureMate-frontend/#/) |
-| ⚙️ **CultureMate-backend** | REST API, 인증, 외부 API 연동, 데이터 저장 | [![repo](https://img.shields.io/badge/Repo-24292F?style=flat-square&logo=github)](https://github.com/CultureMate/CultureMate-backend) |
-
-</div>
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <h3>🧩 Platform</h3>
+      통합 실행, 시스템 구성, 프로젝트 문서
+      <br /><br />
+      <a href="https://github.com/CultureMate/CultureMate-platform"><img src="https://img.shields.io/badge/Repository-24292F?style=flat-square&logo=github&logoColor=white" alt="Repository" /></a>
+    </td>
+    <td width="33%" valign="top">
+      <h3>🎨 Frontend</h3>
+      React 기반 사용자 화면과 문화 코스 경험
+      <br /><br />
+      <a href="https://github.com/CultureMate/CultureMate-frontend"><img src="https://img.shields.io/badge/Repository-24292F?style=flat-square&logo=github&logoColor=white" alt="Repository" /></a>
+      <a href="https://culturemate.github.io/CultureMate-frontend/#/"><img src="https://img.shields.io/badge/Live_Demo-FF5A3C?style=flat-square&logo=googlechrome&logoColor=white" alt="Live Demo" /></a>
+    </td>
+    <td width="33%" valign="top">
+      <h3>⚙️ Backend</h3>
+      REST API, 인증, 외부 API 연동, 데이터 저장
+      <br /><br />
+      <a href="https://github.com/CultureMate/CultureMate-backend"><img src="https://img.shields.io/badge/Repository-24292F?style=flat-square&logo=github&logoColor=white" alt="Repository" /></a>
+    </td>
+  </tr>
+</table>
 
 <br />
 
 ## 👥 Team
 
-<div align="center">
-
-| Member | Role | Ownership |
-|:---:|:---:|---|
-| **강민구** | ![BE Lead](https://img.shields.io/badge/Backend_·_Team_Lead-6DB33F?style=flat-square) | AI 소개문, Google Places, 코스 API, 사이 장소 추천 |
-| **최환우** | ![BE](https://img.shields.io/badge/Backend-6DB33F?style=flat-square) | **카카오 로그인, 서울시 API, 조회수, ERD, Docker, 통합 개선** |
-| **김우석** | ![BE](https://img.shields.io/badge/Backend-6DB33F?style=flat-square) | 관심 행사, 마이페이지, 댓글, 서울시 원본 정제, 테스트 문서 |
-| **문한일** | ![FE](https://img.shields.io/badge/Frontend-61DAFB?style=flat-square&logoColor=20232A) | 행사 탐색·상세, 지도, 댓글, 코스·공유 화면, UI 개선 |
-| **손수연** | ![FE](https://img.shields.io/badge/Frontend-61DAFB?style=flat-square&logoColor=20232A) | 로그인, 프로필, 관심 목록, 캘린더, 마이페이지 |
-
-</div>
+<table width="100%">
+  <tr>
+    <th width="14%">Member</th>
+    <th width="22%">Role</th>
+    <th>Ownership</th>
+  </tr>
+  <tr>
+    <td align="center"><b>강민구</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/👑_Backend_·_Lead-15803D?style=flat-square" alt="Backend Lead" /></td>
+    <td><code>AI 소개문</code> <code>Google Places</code> <code>코스 API</code> <code>사이 장소 추천</code></td>
+  </tr>
+  <tr>
+    <td align="center"><b>최환우</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/Backend-15803D?style=flat-square" alt="Backend" /></td>
+    <td><code>카카오 로그인</code> <code>서울시 API</code> <code>조회수</code> <code>ERD</code> <code>Docker</code> <code>통합 개선</code></td>
+  </tr>
+  <tr>
+    <td align="center"><b>김우석</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/Backend-15803D?style=flat-square" alt="Backend" /></td>
+    <td><code>관심 행사</code> <code>마이페이지</code> <code>댓글</code> <code>서울시 원본 정제</code> <code>테스트 문서</code></td>
+  </tr>
+  <tr>
+    <td align="center"><b>문한일</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/Frontend-0369A1?style=flat-square" alt="Frontend" /></td>
+    <td><code>행사 탐색·상세</code> <code>지도</code> <code>댓글</code> <code>코스·공유 화면</code> <code>UI 개선</code></td>
+  </tr>
+  <tr>
+    <td align="center"><b>손수연</b></td>
+    <td align="center"><img src="https://img.shields.io/badge/Frontend-0369A1?style=flat-square" alt="Frontend" /></td>
+    <td><code>로그인</code> <code>프로필</code> <code>관심 목록</code> <code>캘린더</code> <code>마이페이지</code></td>
+  </tr>
+</table>
 
 <br />
 
 <div align="center">
 
-**🎓 LG CNS AM INSPIRE CAMP 6기 · Mini Project**
+**🎓 LG CNS AM INSPIRE CAMP 6기 · 3조 Mini Project**
 
-[데모 체험](https://culturemate.github.io/CultureMate-frontend/#/) · [프로젝트 문서](https://github.com/CultureMate/CultureMate-platform)
+[데모 체험](https://culturemate.github.io/CultureMate-frontend/#/) · [프로젝트 문서](https://github.com/CultureMate/CultureMate-platform) · [Backend](https://github.com/CultureMate/CultureMate-backend) · [Frontend](https://github.com/CultureMate/CultureMate-frontend)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF8A4C,100:EF4433&height=120&section=footer" alt="" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF8A4C,100:EF4433&height=100&section=footer" alt="" width="100%" />
 
 </div>
